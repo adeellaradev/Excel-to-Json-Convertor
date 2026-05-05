@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+*.xlsx
+*.json
+!output.json
+state.json
+app.py
+excel_to_json.py
+json_to_excel.py
+templates/
+.DS_Store
+.env
