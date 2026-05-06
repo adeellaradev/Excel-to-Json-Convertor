@@ -1,7 +1,7 @@
 {
   "sheet_name": "SCOREBOARD",
-  "about": "Weekly clinic performance scoreboard. Each record covers one week and is grouped by focus area. Only filled-in metrics appear in records \u2014 the full metric catalogue with units and descriptions lives in 'schema'.",
-  "generated_at": "2026-05-06T14:02:39Z",
+  "about": "Weekly clinic performance scoreboard. Each record covers one week and is grouped by focus area. null means the field exists but was not filled in that week. The full metric catalogue with units and descriptions lives in 'schema'.",
+  "generated_at": "2026-05-06T14:27:52Z",
   "record_count": 3,
   "metric_count": 115,
   "schema": {
@@ -644,6 +644,11 @@
       "date": "2026-02-02",
       "Financial": {
         "Total Revenue - All Services": 39202.17,
+        "Total Product Revenue - All Services": null,
+        "Theraguns Sold (#)": null,
+        "Pillows": null,
+        "Custom Knee Brace": null,
+        "Orthotics": null,
         "PT Total Revenue": 30394.0,
         "RMT Total Revenue": 775.5,
         "CHIRO Total Revenue": 5649.9,
@@ -659,6 +664,8 @@
         "Online Bookings Via Jane": 43.0
       },
       "Marketing": {
+        "Consult Requests": null,
+        "Consults turned Ax": null,
         "Total Ax - All Services": 56.0,
         "Ax 4 Week Avg": 56,
         "FB Reviews": 0.0,
@@ -670,8 +677,11 @@
       },
       "Caseload": {
         "# of Rx (Clinic Wide)": 340,
+        "CROSS REFERRAL AX (Total)": null,
         "Cancellation %": 0.1236203091,
         "# of Fall Offs (Total)": 103.0,
+        "Fall Off % Called": null,
+        "PT Available appts": null,
         "PT Total Available Hours (Total)": 273.5,
         "PT Total Available Hours (PT only)": 139.25,
         "PT Total BOOKED hours": 138.0,
@@ -680,16 +690,29 @@
         "Utilization (Without Kines)": 0.9910233393,
         "RMT Hours Available": 8,
         "RMT BOOKED hours": 8.75,
+        "Utilization": null,
         "Chiro Hours Available": 35.25,
         "Chiro BOOKED hours": 30.75
       },
       "Uncategorised": {
         "Clinic PVA": 6.071428571,
+        "NAR Submission": null,
+        "NAR Percentage": null,
+        "Shockwave Alone": null,
+        "Shockwave + PT": null,
+        "Total Shockwave Revenue": null,
+        "AHS active clients": null,
+        "Total Active Called": null,
+        "Conversion": null,
+        "$$/Visit": null,
+        "In-Person Visit": null,
+        "MD F/U post VV tx calls": null,
         "PT TP Given": 38.0,
         "TP Utilization": 0.0,
         "RMT TP Given": 0.0,
         "CHIRO TP Given": 0.0,
-        "True PVA Average": 5.929824561
+        "True PVA Average": 5.929824561,
+        "PVA AVERAGE": null
       },
       "Treatment Plan": {
         "Submitted": 599.0,
@@ -700,7 +723,8 @@
       },
       "Online": {
         "Cancelled Ax (Online)": 0.0,
-        "Cancelled Ax Online %": 0.0
+        "Cancelled Ax Online %": 0.0,
+        "Cancelled Online Ax WINBACK": null
       },
       "Phone": {
         "Total Calls (5530)": 282.0,
@@ -719,13 +743,50 @@
         "# of Tx Plan Given": 38.0,
         "% Tx Plan Used": 0.6785714286
       },
+      "Satisfaction": {
+        "NPS Collected at Ax": null,
+        "NPS % Collected at Ax": null
+      },
+      "Rapport": {
+        "Follow-up won": null
+      },
       "Commitment": {
+        "Dropped Clients won": null,
         "PT Tx": 273,
+        "PVA (4 wk avg)": null,
         "RMT Tx": 5.0,
+        "RMT Available slots": null,
         "RMT Arrived slots": 7.0,
         "CHIRO Tx": 54,
+        "CHIRO Available slots": null,
         "CHIRO Arrived slots": 62.0,
-        "Pelvic Health Tx": 6.0
+        "Pelvic Health Tx": 6.0,
+        "Pelvic Health Available slots": null,
+        "Pelvic Health Arrived slots": null
+      },
+      "Beth": {
+        "Total Patient Database": null,
+        "Beth Outgoing Calls": null,
+        "Beth incoming Calls": null,
+        "Total Calls": null,
+        "Discovery Call Booked": null,
+        "Virtual Revenue": null
+      },
+      "Paula": {
+        "Total Active Patients": null,
+        "MD's called": null,
+        "Emails Sent": null,
+        "Open Rate": null,
+        "Email Responses": null,
+        "Paid Virtual Delivered": null
+      },
+      "Tracy": {
+        "Calls made by Other Clinicians": null,
+        "Discovery Booked": null,
+        "MD faxees sent": null
+      },
+      "Tracy+Paula": {
+        "Discovery Call Delivered": null
       },
       "AHS": {
         "PT AHS Ax": 11.0,
@@ -739,6 +800,11 @@
       "date": "2026-02-09",
       "Financial": {
         "Total Revenue - All Services": 42360.64,
+        "Total Product Revenue - All Services": null,
+        "Theraguns Sold (#)": null,
+        "Pillows": null,
+        "Custom Knee Brace": null,
+        "Orthotics": null,
         "PT Total Revenue": 36099.38,
         "RMT Total Revenue": 355.0,
         "CHIRO Total Revenue": 4458.9,
@@ -754,6 +820,8 @@
         "Online Bookings Via Jane": 45.0
       },
       "Marketing": {
+        "Consult Requests": null,
+        "Consults turned Ax": null,
         "Total Ax - All Services": 54.0,
         "Ax 4 Week Avg": 55,
         "FB Reviews": 0.0,
@@ -765,8 +833,11 @@
       },
       "Caseload": {
         "# of Rx (Clinic Wide)": 377,
+        "CROSS REFERRAL AX (Total)": null,
         "Cancellation %": 0.1149897331,
         "# of Fall Offs (Total)": 113.0,
+        "Fall Off % Called": null,
+        "PT Available appts": null,
         "PT Total Available Hours (Total)": 290.25,
         "PT Total Available Hours (PT only)": 172.5,
         "PT Total BOOKED hours": 166.75,
@@ -775,16 +846,29 @@
         "Utilization (Without Kines)": 0.9666666667,
         "RMT Hours Available": 3.75,
         "RMT BOOKED hours": 4.0,
+        "Utilization": null,
         "Chiro Hours Available": 28.25,
         "Chiro BOOKED hours": 25.25
       },
       "Uncategorised": {
         "Clinic PVA": 6.854545455,
+        "NAR Submission": null,
+        "NAR Percentage": null,
+        "Shockwave Alone": null,
+        "Shockwave + PT": null,
+        "Total Shockwave Revenue": null,
+        "AHS active clients": null,
+        "Total Active Called": null,
+        "Conversion": null,
+        "$$/Visit": null,
+        "In-Person Visit": null,
+        "MD F/U post VV tx calls": null,
         "PT TP Given": 30.0,
         "TP Utilization": 0.0,
         "RMT TP Given": 0.0,
         "CHIRO TP Given": 0.0,
-        "True PVA Average": 6.522522523
+        "True PVA Average": 6.522522523,
+        "PVA AVERAGE": null
       },
       "Treatment Plan": {
         "Submitted": 669.0,
@@ -795,7 +879,8 @@
       },
       "Online": {
         "Cancelled Ax (Online)": 0.0,
-        "Cancelled Ax Online %": 0.0
+        "Cancelled Ax Online %": 0.0,
+        "Cancelled Online Ax WINBACK": null
       },
       "Phone": {
         "Total Calls (5530)": 281.0,
@@ -814,14 +899,50 @@
         "# of Tx Plan Given": 30.0,
         "% Tx Plan Used": 0.5555555556
       },
+      "Satisfaction": {
+        "NPS Collected at Ax": null,
+        "NPS % Collected at Ax": null
+      },
+      "Rapport": {
+        "Follow-up won": null
+      },
       "Commitment": {
+        "Dropped Clients won": null,
         "PT Tx": 319,
         "PVA (4 wk avg)": 1.5,
         "RMT Tx": 2.0,
+        "RMT Available slots": null,
         "RMT Arrived slots": 3.0,
         "CHIRO Tx": 48,
+        "CHIRO Available slots": null,
         "CHIRO Arrived slots": 55.0,
-        "Pelvic Health Tx": 17.0
+        "Pelvic Health Tx": 17.0,
+        "Pelvic Health Available slots": null,
+        "Pelvic Health Arrived slots": null
+      },
+      "Beth": {
+        "Total Patient Database": null,
+        "Beth Outgoing Calls": null,
+        "Beth incoming Calls": null,
+        "Total Calls": null,
+        "Discovery Call Booked": null,
+        "Virtual Revenue": null
+      },
+      "Paula": {
+        "Total Active Patients": null,
+        "MD's called": null,
+        "Emails Sent": null,
+        "Open Rate": null,
+        "Email Responses": null,
+        "Paid Virtual Delivered": null
+      },
+      "Tracy": {
+        "Calls made by Other Clinicians": null,
+        "Discovery Booked": null,
+        "MD faxees sent": null
+      },
+      "Tracy+Paula": {
+        "Discovery Call Delivered": null
       },
       "AHS": {
         "PT AHS Ax": 10.0,
@@ -834,7 +955,16 @@
     {
       "date": "2026-02-16",
       "Financial": {
-        "Total Revenue - All Services": 40454.28
+        "Total Revenue - All Services": 40454.28,
+        "Total Product Revenue - All Services": null,
+        "Theraguns Sold (#)": null,
+        "Pillows": null,
+        "Custom Knee Brace": null,
+        "Orthotics": null,
+        "PT Total Revenue": null,
+        "RMT Total Revenue": null,
+        "CHIRO Total Revenue": null,
+        "Pelvic Health Total Revenue": null
       },
       "Collection": {
         "Total Payments - All Services": 48464.61,
@@ -846,16 +976,55 @@
         "Online Bookings Via Jane": 36.0
       },
       "Marketing": {
+        "Consult Requests": null,
+        "Consults turned Ax": null,
         "Total Ax - All Services": 42.0,
         "Ax 4 Week Avg": 50.66666667,
-        "Google Reviews": 1227.0
+        "FB Reviews": null,
+        "Google Reviews": 1227.0,
+        "PT Ax": null,
+        "RMT Ax": null,
+        "CHIRO Ax": null,
+        "Pelvic Health Ax": null
       },
       "Caseload": {
         "# of Rx (Clinic Wide)": 377,
-        "Cancellation %": 0.1707317073
+        "CROSS REFERRAL AX (Total)": null,
+        "Cancellation %": 0.1707317073,
+        "# of Fall Offs (Total)": null,
+        "Fall Off % Called": null,
+        "PT Available appts": null,
+        "PT Total Available Hours (Total)": null,
+        "PT Total Available Hours (PT only)": null,
+        "PT Total BOOKED hours": null,
+        "PT Arrived appts": null,
+        "Utilization (With Kines)": null,
+        "Utilization (Without Kines)": null,
+        "RMT Hours Available": null,
+        "RMT BOOKED hours": null,
+        "Utilization": null,
+        "Chiro Hours Available": null,
+        "Chiro BOOKED hours": null
       },
       "Uncategorised": {
-        "Clinic PVA": 7.440789474
+        "Clinic PVA": 7.440789474,
+        "NAR Submission": null,
+        "NAR Percentage": null,
+        "Shockwave Alone": null,
+        "Shockwave + PT": null,
+        "Total Shockwave Revenue": null,
+        "AHS active clients": null,
+        "Total Active Called": null,
+        "Conversion": null,
+        "$$/Visit": null,
+        "In-Person Visit": null,
+        "MD F/U post VV tx calls": null,
+        "PT TP Given": null,
+        "TP Utilization": null,
+        "RMT TP Given": null,
+        "CHIRO TP Given": null,
+        "True PVA Average": null,
+        "PVA AVERAGE": null
       },
       "Treatment Plan": {
         "Submitted": 498.0,
@@ -866,7 +1035,8 @@
       },
       "Online": {
         "Cancelled Ax (Online)": 0.0,
-        "Cancelled Ax Online %": 0.0
+        "Cancelled Ax Online %": 0.0,
+        "Cancelled Online Ax WINBACK": null
       },
       "Phone": {
         "Total Calls (5530)": 255.0,
@@ -884,6 +1054,58 @@
         "Booked:Prescribed % (Total)": 0.5357142857,
         "# of Tx Plan Given": 20.0,
         "% Tx Plan Used": 0.4761904762
+      },
+      "Satisfaction": {
+        "NPS Collected at Ax": null,
+        "NPS % Collected at Ax": null
+      },
+      "Rapport": {
+        "Follow-up won": null
+      },
+      "Commitment": {
+        "Dropped Clients won": null,
+        "PT Tx": null,
+        "PVA (4 wk avg)": null,
+        "RMT Tx": null,
+        "RMT Available slots": null,
+        "RMT Arrived slots": null,
+        "CHIRO Tx": null,
+        "CHIRO Available slots": null,
+        "CHIRO Arrived slots": null,
+        "Pelvic Health Tx": null,
+        "Pelvic Health Available slots": null,
+        "Pelvic Health Arrived slots": null
+      },
+      "Beth": {
+        "Total Patient Database": null,
+        "Beth Outgoing Calls": null,
+        "Beth incoming Calls": null,
+        "Total Calls": null,
+        "Discovery Call Booked": null,
+        "Virtual Revenue": null
+      },
+      "Paula": {
+        "Total Active Patients": null,
+        "MD's called": null,
+        "Emails Sent": null,
+        "Open Rate": null,
+        "Email Responses": null,
+        "Paid Virtual Delivered": null
+      },
+      "Tracy": {
+        "Calls made by Other Clinicians": null,
+        "Discovery Booked": null,
+        "MD faxees sent": null
+      },
+      "Tracy+Paula": {
+        "Discovery Call Delivered": null
+      },
+      "AHS": {
+        "PT AHS Ax": null,
+        "% of Total Ax (AHS)": null,
+        "PT AHS Tx (Total)": null,
+        "PT AHS Ax (Hip&Knee Class)": null,
+        "PT AHS Tx (Hip&Knee Class)": null
       }
     }
   ]
