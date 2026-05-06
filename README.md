@@ -126,3 +126,9 @@ data["schema"]["AHS"]
 - Parse the target row and embed `"target"` per metric so the JSON supports alerting without the spreadsheet.
 - Replace inferred units with explicit ones mapped per metric name for higher accuracy.
 - Add `--sheet` and `--start-row` CLI flags for different layouts.
+
+## Round-trip: JSON → Excel
+
+The two limitations of any Excel → JSON conversion are formula strings (we store computed results, not `=B8/B7`) and visual formatting (colors, borders, merged cell styles).
+
+Both are fully solvable. Keep the original `.xlsx` as a formatting template alongside the JSON. A companion `json_to_excel.py` script pours the JSON data back into that template — you get a 100% exact replica of the original spreadsheet, formatting and all, with the added benefit that the data passed through a clean, queryable JSON layer in between.
