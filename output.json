@@ -1,3863 +1,889 @@
 {
   "sheet_name": "SCOREBOARD",
-  "template_base64": "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",
-  "cells": {
-    "A1": null,
-    "B1": null,
-    "C1": null,
-    "D1": null,
-    "E1": null,
-    "F1": null,
-    "G1": null,
-    "H1": null,
-    "I1": null,
-    "J1": null,
-    "K1": null,
-    "L1": null,
-    "M1": null,
-    "N1": null,
-    "O1": null,
-    "P1": null,
-    "Q1": null,
-    "R1": null,
-    "S1": null,
-    "T1": null,
-    "U1": null,
-    "V1": null,
-    "W1": null,
-    "X1": null,
-    "Y1": null,
-    "Z1": null,
-    "AA1": null,
-    "AB1": null,
-    "AC1": null,
-    "AD1": null,
-    "AE1": null,
-    "AF1": null,
-    "AG1": null,
-    "AH1": null,
-    "AI1": null,
-    "AJ1": "PHONE PERFORMANCE",
-    "AK1": null,
-    "AL1": null,
-    "AM1": null,
-    "AN1": null,
-    "AO1": null,
-    "AP1": null,
-    "AQ1": null,
-    "AR1": null,
-    "AS1": null,
-    "AT1": null,
-    "AU1": null,
-    "AV1": null,
-    "AW1": null,
-    "AX1": null,
-    "AY1": null,
-    "AZ1": null,
-    "BA1": null,
-    "BB1": null,
-    "BC1": null,
-    "BD1": null,
-    "BE1": null,
-    "BF1": null,
-    "BG1": null,
-    "BH1": null,
-    "BI1": null,
-    "BJ1": null,
-    "BK1": null,
-    "BL1": null,
-    "BM1": null,
-    "BN1": null,
-    "BO1": null,
-    "BP1": null,
-    "BQ1": null,
-    "BR1": null,
-    "BS1": null,
-    "BT1": null,
-    "BU1": null,
-    "BV1": null,
-    "BW1": null,
-    "BX1": null,
-    "BY1": null,
-    "BZ1": null,
-    "CA1": null,
-    "CB1": null,
-    "CC1": null,
-    "CD1": null,
-    "CE1": null,
-    "CF1": null,
-    "CG1": null,
-    "CH1": null,
-    "CI1": null,
-    "CJ1": null,
-    "CK1": null,
-    "CL1": null,
-    "CM1": null,
-    "CN1": null,
-    "CO1": null,
-    "CP1": null,
-    "CQ1": null,
-    "CR1": null,
-    "CS1": null,
-    "CT1": null,
-    "CU1": null,
-    "CV1": null,
-    "CW1": null,
-    "CX1": null,
-    "CY1": null,
-    "CZ1": null,
-    "DA1": null,
-    "DB1": null,
-    "DC1": null,
-    "DD1": null,
-    "DE1": null,
-    "DF1": null,
-    "DG1": null,
-    "DH1": null,
-    "DI1": null,
-    "DJ1": null,
-    "DK1": null,
-    "DL1": null,
-    "DM1": null,
-    "DN1": null,
-    "DO1": null,
-    "DP1": null,
-    "DQ1": null,
-    "DR1": null,
-    "DS1": null,
-    "DT1": null,
-    "DU1": null,
-    "DV1": null,
-    "DW1": null,
-    "DX1": null,
-    "DY1": null,
-    "DZ1": null,
-    "EA1": null,
-    "EB1": null,
-    "EC1": null,
-    "ED1": null,
-    "EE1": null,
-    "EF1": null,
-    "EG1": null,
-    "EH1": null,
-    "EI1": null,
-    "EJ1": null,
-    "EK1": null,
-    "EL1": null,
-    "A2": "\\ ",
-    "B2": "Total Revenue \n- All Services",
-    "C2": "Total Product Revenue - All Services",
-    "D2": "Theraguns Sold (#)",
-    "E2": "Pillows",
-    "F2": "Custom Knee Brace",
-    "G2": "Orthotics",
-    "H2": "Total Payments - All Services",
-    "I2": "Revenue Collected (4 wk avg)",
-    "J2": "AR > 90 days",
-    "K2": "Total AR",
-    "L2": "Online Bookings Via Jane",
-    "M2": "Consult Requests",
-    "N2": "Consults turned Ax",
-    "O2": "Total Ax \n- All Services",
-    "P2": "Ax 4 Week Avg",
-    "Q2": "# of Rx (Clinic Wide)",
-    "R2": "Clinic PVA",
-    "S2": null,
-    "T2": "CROSS REFERRAL AX (Total)",
-    "U2": null,
-    "V2": "Submitted\n",
-    "W2": "Unsubmitted",
-    "X2": null,
-    "Y2": "Cancelled \n Total Ax",
-    "Z2": "Cancelled \nAx (Online)",
-    "AA2": "Cancelled Ax Online %",
-    "AB2": "Cancelled Online Ax WINBACK",
-    "AC2": "Cancellation %",
-    "AD2": "# of Fall Offs\n(Total)",
-    "AE2": "Fall Off % Called",
-    "AF2": null,
-    "AG2": "FB Reviews",
-    "AH2": "Google Reviews",
-    "AI2": null,
-    "AJ2": "Total Calls (5530)",
-    "AK2": "Missed Calls",
-    "AL2": "Answer Rate",
-    "AM2": "Booking Rate",
-    "AN2": "NBO",
-    "AO2": "DNB",
-    "AP2": "Winback (Ax Only)",
-    "AQ2": null,
-    "AR2": "NAR Collected at Ax",
-    "AS2": "NAR % Collected at Ax",
-    "AT2": "Average \nPrescribed",
-    "AU2": "Booked:Prescribed % \n(Total)",
-    "AV2": "# of Tx Plan Given",
-    "AW2": "% Tx Plan Used",
-    "AX2": "NPS Collected at Ax",
-    "AY2": "NPS % Collected at Ax",
-    "AZ2": "Follow-up \nwon",
-    "BA2": "Dropped Clients\nwon",
-    "BB2": null,
-    "BC2": "NAR Submission",
-    "BD2": "NAR Percentage",
-    "BE2": null,
-    "BF2": "Shockwave Alone",
-    "BG2": "Shockwave + PT",
-    "BH2": "Total Shockwave Revenue",
-    "BI2": null,
-    "BJ2": "Total Patient Database",
-    "BK2": "Total Active Patients",
-    "BL2": "Calls made by Other Clinicians",
-    "BM2": "AHS active clients ",
-    "BN2": "Total Active Called",
-    "BO2": "Discovery Booked",
-    "BP2": "MD faxees sent",
-    "BQ2": "MD's called",
-    "BR2": "Emails Sent",
-    "BS2": "Open Rate",
-    "BT2": "Email Responses",
-    "BU2": "Beth Outgoing Calls",
-    "BV2": "Beth incoming Calls",
-    "BW2": "Total Calls",
-    "BX2": "Discovery Call Booked",
-    "BY2": "Conversion",
-    "BZ2": "Discovery Call Delivered",
-    "CA2": "Paid Virtual Delivered",
-    "CB2": "Virtual Revenue",
-    "CC2": "$$/Visit",
-    "CD2": "Conversion",
-    "CE2": "In-Person Visit",
-    "CF2": null,
-    "CG2": "MD F/U post  VV tx calls",
-    "CH2": null,
-    "CI2": null,
-    "CJ2": "PT Total Revenue",
-    "CK2": "PT Ax",
-    "CL2": "PT Tx",
-    "CM2": "PT AHS Ax",
-    "CN2": "% of Total Ax (AHS)",
-    "CO2": "PT AHS Tx (Total)",
-    "CP2": "PT AHS \nAx (Hip&Knee Class)",
-    "CQ2": "PT AHS Tx (Hip&Knee Class)",
-    "CR2": "PVA \n(4 wk avg)",
-    "CS2": "PT Available appts",
-    "CT2": "PT Total Available Hours \n(Total)",
-    "CU2": "PT Total Available Hours \n(PT only)",
-    "CV2": "PT Total BOOKED hours",
-    "CW2": "PT Arrived appts",
-    "CX2": "Utilization (With Kines)",
-    "CY2": "Utilization (Without Kines)",
-    "CZ2": "PT TP Given",
-    "DA2": "TP Utilization",
-    "DB2": null,
-    "DC2": "RMT Total Revenue",
-    "DD2": "RMT \nAx",
-    "DE2": "RMT \nTx",
-    "DF2": "PVA \n(4 wk avg)",
-    "DG2": "RMT Available slots",
-    "DH2": "RMT Hours Available",
-    "DI2": "RMT BOOKED hours",
-    "DJ2": "RMT Arrived slots",
-    "DK2": "Utilization",
-    "DL2": "RMT TP Given",
-    "DM2": "TP Utilization",
-    "DN2": null,
-    "DO2": "CHIRO \nTotal Revenue",
-    "DP2": "CHIRO\nAx",
-    "DQ2": "CHIRO\nTx",
-    "DR2": "PVA \n(4 wk avg)",
-    "DS2": "CHIRO Available slots",
-    "DT2": "Chiro Hours Available",
-    "DU2": "Chiro BOOKED hours",
-    "DV2": "CHIRO Arrived slots",
-    "DW2": "Utilization",
-    "DX2": "CHIRO TP Given",
-    "DY2": "TP Utilization",
-    "DZ2": null,
-    "EA2": "Pelvic Health\nTotal Revenue",
-    "EB2": "Pelvic Health\nAx",
-    "EC2": "Pelvic Health\nTx",
-    "ED2": "PVA \n(4 wk avg)",
-    "EE2": null,
-    "EF2": "True PVA Average",
-    "EG2": "Utilization",
-    "EH2": null,
-    "EI2": "PVA AVERAGE",
-    "EJ2": "Pelvic Health Available slots",
-    "EK2": "Pelvic Health Arrived slots",
-    "EL2": "Utilization",
-    "A3": "Focus:",
-    "B3": "Financial",
-    "C3": "Financial",
-    "D3": "Financial",
-    "E3": "Financial",
-    "F3": "Financial",
-    "G3": "Financial",
-    "H3": "Collection",
-    "I3": "Collection",
-    "J3": "Collection",
-    "K3": "Collection",
-    "L3": "Bookings",
-    "M3": "Marketing",
-    "N3": "Marketing",
-    "O3": "Marketing",
-    "P3": "Marketing",
-    "Q3": "Caseload",
-    "R3": null,
-    "S3": null,
-    "T3": "Caseload",
-    "U3": null,
-    "V3": "Treatment Plan",
-    "W3": "Treatment Plan",
-    "X3": null,
-    "Y3": "New Clients",
-    "Z3": "Online",
-    "AA3": "Online",
-    "AB3": "Online",
-    "AC3": "Caseload",
-    "AD3": "Caseload",
-    "AE3": "Caseload",
-    "AF3": null,
-    "AG3": "Marketing",
-    "AH3": "Marketing",
-    "AI3": null,
-    "AJ3": "Phone",
-    "AK3": "Phone",
-    "AL3": "Answer",
-    "AM3": "Book",
-    "AN3": "Phone",
-    "AO3": "Phone",
-    "AP3": "Phone",
-    "AQ3": null,
-    "AR3": "Tx Plan",
-    "AS3": "Tx Plan",
-    "AT3": "Tx Plan",
-    "AU3": "Tx Plan",
-    "AV3": "Tx Plan",
-    "AW3": "Tx Plan",
-    "AX3": "Satisfaction",
-    "AY3": "Satisfaction",
-    "AZ3": "Rapport",
-    "BA3": "Commitment",
-    "BB3": null,
-    "BC3": null,
-    "BD3": null,
-    "BE3": null,
-    "BF3": null,
-    "BG3": null,
-    "BH3": null,
-    "BI3": null,
-    "BJ3": "Beth",
-    "BK3": "Paula",
-    "BL3": "Tracy",
-    "BM3": null,
-    "BN3": null,
-    "BO3": "Tracy",
-    "BP3": "Tracy",
-    "BQ3": "Paula",
-    "BR3": "Paula",
-    "BS3": "Paula",
-    "BT3": "Paula",
-    "BU3": "Beth",
-    "BV3": "Beth  ",
-    "BW3": "Beth",
-    "BX3": "Beth",
-    "BY3": null,
-    "BZ3": "Tracy+Paula",
-    "CA3": "Paula",
-    "CB3": "Beth",
-    "CC3": null,
-    "CD3": null,
-    "CE3": null,
-    "CF3": null,
-    "CG3": null,
-    "CH3": null,
-    "CI3": null,
-    "CJ3": "Financial",
-    "CK3": "Marketing",
-    "CL3": "Commitment",
-    "CM3": "AHS",
-    "CN3": "AHS",
-    "CO3": "AHS",
-    "CP3": "AHS",
-    "CQ3": "AHS",
-    "CR3": "Commitment",
-    "CS3": "Caseload",
-    "CT3": "Caseload",
-    "CU3": "Caseload",
-    "CV3": "Caseload",
-    "CW3": "Caseload",
-    "CX3": "Caseload",
-    "CY3": "Caseload",
-    "CZ3": null,
-    "DA3": null,
-    "DB3": null,
-    "DC3": "Financial",
-    "DD3": "Marketing",
-    "DE3": "Commitment",
-    "DF3": "Commitment",
-    "DG3": "Commitment",
-    "DH3": "Caseload",
-    "DI3": "Caseload",
-    "DJ3": "Commitment",
-    "DK3": "Caseload",
-    "DL3": null,
-    "DM3": null,
-    "DN3": null,
-    "DO3": "Financial",
-    "DP3": "Marketing",
-    "DQ3": "Commitment",
-    "DR3": "Commitment",
-    "DS3": "Commitment",
-    "DT3": "Caseload",
-    "DU3": "Caseload",
-    "DV3": "Commitment",
-    "DW3": "Caseload",
-    "DX3": null,
-    "DY3": null,
-    "DZ3": null,
-    "EA3": "Financial",
-    "EB3": "Marketing",
-    "EC3": "Commitment",
-    "ED3": "Commitment",
-    "EE3": null,
-    "EF3": null,
-    "EG3": null,
-    "EH3": null,
-    "EI3": null,
-    "EJ3": "Commitment",
-    "EK3": "Commitment",
-    "EL3": "Caseload",
-    "A4": "Source:",
-    "B4": "EMR",
-    "C4": "EMR",
-    "D4": "EMR",
-    "E4": "EMR",
-    "F4": "EMR",
-    "G4": "EMR",
-    "H4": "EMR",
-    "I4": "Ratio",
-    "J4": "EMR",
-    "K4": "EMR",
-    "L4": "EMR",
-    "M4": "Form",
-    "N4": "EMR",
-    "O4": "EMR",
-    "P4": "GS",
-    "Q4": "EMR",
-    "R4": null,
-    "S4": null,
-    "T4": "NAR",
-    "U4": null,
-    "V4": "Jane",
-    "W4": "Jane",
-    "X4": null,
-    "Y4": "EMR",
-    "Z4": "EMR",
-    "AA4": "EMR",
-    "AB4": "EMR",
-    "AC4": "EMR",
-    "AD4": "EMR",
-    "AE4": "Tracker",
-    "AF4": null,
-    "AG4": "Facebook",
-    "AH4": "Google",
-    "AI4": null,
-    "AJ4": "CallHero",
-    "AK4": "CallHero",
-    "AL4": "CallHero",
-    "AM4": "CallHero",
-    "AN4": "CallHero",
-    "AO4": "CallHero",
-    "AP4": "CallHero",
-    "AQ4": null,
-    "AR4": "NAR",
-    "AS4": "Formula",
-    "AT4": "NAR",
-    "AU4": "Formula",
-    "AV4": "NAR",
-    "AW4": "NAR",
-    "AX4": "NPS ",
-    "AY4": "Formula",
-    "AZ4": "=HYPERLINK(\"https://docs.google.com/spreadsheets/d/1s496B9UDR0V6aowT5LYZIpAazEDG9mXXPINFQ_cf1ls/edit?usp=sharing\",\"Tracker\")",
-    "BA4": "=HYPERLINK(\"https://docs.google.com/spreadsheets/d/1rvlKu2jEbKbuiyAycq48R43M4TBOrds5lktcHJHBvik/edit?usp=sharing\",\"Tracker\")",
-    "BB4": null,
-    "BC4": null,
-    "BD4": null,
-    "BE4": null,
-    "BF4": "EMR",
-    "BG4": "EMR",
-    "BH4": "EMR",
-    "BI4": null,
-    "BJ4": null,
-    "BK4": null,
-    "BL4": null,
-    "BM4": null,
-    "BN4": null,
-    "BO4": null,
-    "BP4": null,
-    "BQ4": null,
-    "BR4": null,
-    "BS4": null,
-    "BT4": null,
-    "BU4": "OBJECTIONS",
-    "BV4": "HOOKS",
-    "BW4": null,
-    "BX4": null,
-    "BY4": null,
-    "BZ4": null,
-    "CA4": null,
-    "CB4": null,
-    "CC4": null,
-    "CD4": null,
-    "CE4": null,
-    "CF4": null,
-    "CG4": null,
-    "CH4": null,
-    "CI4": null,
-    "CJ4": "EMR",
-    "CK4": "EMR",
-    "CL4": "EMR",
-    "CM4": "EMR",
-    "CN4": "EMR",
-    "CO4": "EMR",
-    "CP4": "EMR",
-    "CQ4": "EMR",
-    "CR4": "Formula",
-    "CS4": "Estimate",
-    "CT4": "EMR",
-    "CU4": "EMR",
-    "CV4": "EMR",
-    "CW4": "EMR",
-    "CX4": "Formula",
-    "CY4": "Formula",
-    "CZ4": null,
-    "DA4": null,
-    "DB4": null,
-    "DC4": "EMR",
-    "DD4": "EMR",
-    "DE4": "EMR",
-    "DF4": "Formula",
-    "DG4": "EMR",
-    "DH4": "EMR",
-    "DI4": "EMR",
-    "DJ4": "EMR",
-    "DK4": "Formula",
-    "DL4": null,
-    "DM4": null,
-    "DN4": null,
-    "DO4": "EMR",
-    "DP4": "EMR",
-    "DQ4": "EMR",
-    "DR4": "Formula",
-    "DS4": "EMR",
-    "DT4": "EMR",
-    "DU4": "EMR",
-    "DV4": "EMR",
-    "DW4": "Formula",
-    "DX4": null,
-    "DY4": null,
-    "DZ4": null,
-    "EA4": "EMR",
-    "EB4": "EMR",
-    "EC4": "EMR",
-    "ED4": "Formula",
-    "EE4": null,
-    "EF4": null,
-    "EG4": null,
-    "EH4": null,
-    "EI4": null,
-    "EJ4": "EMR",
-    "EK4": "EMR",
-    "EL4": "Formula",
-    "A5": "Role:",
-    "B5": "J",
-    "C5": "J",
-    "D5": "J",
-    "E5": "J",
-    "F5": "J",
-    "G5": "J",
-    "H5": "J",
-    "I5": "J",
-    "J5": "J",
-    "K5": "J",
-    "L5": "J",
-    "M5": null,
-    "N5": null,
-    "O5": "J",
-    "P5": "J",
-    "Q5": "J",
-    "R5": null,
-    "S5": null,
-    "T5": "Nicole",
-    "U5": null,
-    "V5": "J",
-    "W5": "J",
-    "X5": null,
-    "Y5": "J",
-    "Z5": "J ",
-    "AA5": "J",
-    "AB5": "J",
-    "AC5": "J",
-    "AD5": "J",
-    "AE5": "Nicole",
-    "AF5": null,
-    "AG5": "J",
-    "AH5": "J",
-    "AI5": null,
-    "AJ5": "J",
-    "AK5": "J",
-    "AL5": "J",
-    "AM5": "J",
-    "AN5": "J",
-    "AO5": "J",
-    "AP5": "J",
-    "AQ5": null,
-    "AR5": "J",
-    "AS5": "J",
-    "AT5": "J",
-    "AU5": "J",
-    "AV5": "J",
-    "AW5": "J",
-    "AX5": "BETH",
-    "AY5": "BETH",
-    "AZ5": "BETH",
-    "BA5": "BETH",
-    "BB5": null,
-    "BC5": null,
-    "BD5": null,
-    "BE5": null,
-    "BF5": " ",
-    "BG5": " ",
-    "BH5": null,
-    "BI5": null,
-    "BJ5": null,
-    "BK5": null,
-    "BL5": null,
-    "BM5": null,
-    "BN5": null,
-    "BO5": null,
-    "BP5": null,
-    "BQ5": null,
-    "BR5": null,
-    "BS5": null,
-    "BT5": null,
-    "BU5": null,
-    "BV5": "DISOVERY calls ",
-    "BW5": null,
-    "BX5": null,
-    "BY5": null,
-    "BZ5": null,
-    "CA5": "innocare",
-    "CB5": null,
-    "CC5": null,
-    "CD5": null,
-    "CE5": null,
-    "CF5": null,
-    "CG5": null,
-    "CH5": null,
-    "CI5": null,
-    "CJ5": "J",
-    "CK5": "J",
-    "CL5": "J",
-    "CM5": "J",
-    "CN5": "J",
-    "CO5": "J",
-    "CP5": "J",
-    "CQ5": "J",
-    "CR5": "J",
-    "CS5": "J",
-    "CT5": "J",
-    "CU5": "J",
-    "CV5": "J",
-    "CW5": "J",
-    "CX5": "J",
-    "CY5": "J",
-    "CZ5": null,
-    "DA5": null,
-    "DB5": null,
-    "DC5": "J",
-    "DD5": "J",
-    "DE5": "J",
-    "DF5": "J",
-    "DG5": "J",
-    "DH5": "J",
-    "DI5": "J",
-    "DJ5": "J",
-    "DK5": "J",
-    "DL5": null,
-    "DM5": null,
-    "DN5": null,
-    "DO5": "J",
-    "DP5": "J",
-    "DQ5": "J",
-    "DR5": "J",
-    "DS5": "J",
-    "DT5": "J",
-    "DU5": "J",
-    "DV5": "J",
-    "DW5": "J",
-    "DX5": null,
-    "DY5": null,
-    "DZ5": null,
-    "EA5": "J",
-    "EB5": "J",
-    "EC5": "J",
-    "ED5": "J",
-    "EE5": null,
-    "EF5": null,
-    "EG5": null,
-    "EH5": null,
-    "EI5": " ",
-    "EJ5": null,
-    "EK5": null,
-    "EL5": null,
-    "A6": "...+",
-    "B6": "Target",
-    "C6": null,
-    "D6": null,
-    "E6": null,
-    "F6": null,
-    "G6": null,
-    "H6": null,
-    "I6": null,
-    "J6": null,
-    "K6": null,
-    "L6": null,
-    "M6": null,
-    "N6": null,
-    "O6": null,
-    "P6": null,
-    "Q6": null,
-    "R6": null,
-    "S6": null,
-    "T6": null,
-    "U6": null,
-    "V6": null,
-    "W6": null,
-    "X6": null,
-    "Y6": null,
-    "Z6": null,
-    "AA6": null,
-    "AB6": null,
-    "AC6": null,
-    "AD6": null,
-    "AE6": null,
-    "AF6": null,
-    "AG6": null,
-    "AH6": null,
-    "AI6": null,
-    "AJ6": null,
-    "AK6": null,
-    "AL6": null,
-    "AM6": null,
-    "AN6": null,
-    "AO6": null,
-    "AP6": null,
-    "AQ6": null,
-    "AR6": null,
-    "AS6": null,
-    "AT6": null,
-    "AU6": null,
-    "AV6": null,
-    "AW6": null,
-    "AX6": null,
-    "AY6": null,
-    "AZ6": null,
-    "BA6": null,
-    "BB6": null,
-    "BC6": null,
-    "BD6": null,
-    "BE6": null,
-    "BF6": null,
-    "BG6": null,
-    "BH6": null,
-    "BI6": null,
-    "BJ6": null,
-    "BK6": null,
-    "BL6": null,
-    "BM6": null,
-    "BN6": null,
-    "BO6": null,
-    "BP6": null,
-    "BQ6": null,
-    "BR6": null,
-    "BS6": null,
-    "BT6": null,
-    "BU6": null,
-    "BV6": null,
-    "BW6": null,
-    "BX6": null,
-    "BY6": null,
-    "BZ6": null,
-    "CA6": null,
-    "CB6": null,
-    "CC6": null,
-    "CD6": null,
-    "CE6": null,
-    "CF6": null,
-    "CG6": null,
-    "CH6": null,
-    "CI6": null,
-    "CJ6": null,
-    "CK6": null,
-    "CL6": null,
-    "CM6": null,
-    "CN6": null,
-    "CO6": null,
-    "CP6": null,
-    "CQ6": null,
-    "CR6": null,
-    "CS6": null,
-    "CT6": null,
-    "CU6": null,
-    "CV6": null,
-    "CW6": null,
-    "CX6": null,
-    "CY6": null,
-    "CZ6": null,
-    "DA6": null,
-    "DB6": null,
-    "DC6": null,
-    "DD6": null,
-    "DE6": null,
-    "DF6": null,
-    "DG6": null,
-    "DH6": null,
-    "DI6": null,
-    "DJ6": null,
-    "DK6": null,
-    "DL6": null,
-    "DM6": null,
-    "DN6": null,
-    "DO6": null,
-    "DP6": null,
-    "DQ6": null,
-    "DR6": null,
-    "DS6": null,
-    "DT6": null,
-    "DU6": null,
-    "DV6": null,
-    "DW6": null,
-    "DX6": null,
-    "DY6": null,
-    "DZ6": null,
-    "EA6": null,
-    "EB6": null,
-    "EC6": null,
-    "ED6": null,
-    "EE6": null,
-    "EF6": null,
-    "EG6": null,
-    "EH6": null,
-    "EI6": null,
-    "EJ6": null,
-    "EK6": null,
-    "EL6": null,
-    "A7": 6.0,
-    "B7": "`",
-    "C7": null,
-    "D7": null,
-    "E7": null,
-    "F7": null,
-    "G7": null,
-    "H7": null,
-    "I7": null,
-    "J7": null,
-    "K7": null,
-    "L7": null,
-    "M7": null,
-    "N7": null,
-    "O7": null,
-    "P7": null,
-    "Q7": null,
-    "R7": null,
-    "S7": null,
-    "T7": null,
-    "U7": null,
-    "V7": null,
-    "W7": null,
-    "X7": null,
-    "Y7": null,
-    "Z7": null,
-    "AA7": null,
-    "AB7": null,
-    "AC7": null,
-    "AD7": null,
-    "AE7": null,
-    "AF7": null,
-    "AG7": null,
-    "AH7": null,
-    "AI7": null,
-    "AJ7": null,
-    "AK7": null,
-    "AL7": null,
-    "AM7": null,
-    "AN7": null,
-    "AO7": null,
-    "AP7": null,
-    "AQ7": null,
-    "AR7": null,
-    "AS7": "100% Target",
-    "AT7": null,
-    "AU7": "Target = 75%",
-    "AV7": null,
-    "AW7": "Target = 80%",
-    "AX7": null,
-    "AY7": null,
-    "AZ7": null,
-    "BA7": null,
-    "BB7": null,
-    "BC7": null,
-    "BD7": null,
-    "BE7": null,
-    "BF7": null,
-    "BG7": null,
-    "BH7": null,
-    "BI7": null,
-    "BJ7": null,
-    "BK7": null,
-    "BL7": null,
-    "BM7": null,
-    "BN7": null,
-    "BO7": null,
-    "BP7": null,
-    "BQ7": null,
-    "BR7": null,
-    "BS7": null,
-    "BT7": null,
-    "BU7": null,
-    "BV7": null,
-    "BW7": null,
-    "BX7": null,
-    "BY7": null,
-    "BZ7": null,
-    "CA7": null,
-    "CB7": null,
-    "CC7": null,
-    "CD7": null,
-    "CE7": null,
-    "CF7": null,
-    "CG7": null,
-    "CH7": null,
-    "CI7": null,
-    "CJ7": null,
-    "CK7": "Formula",
-    "CL7": "=CR7*2",
-    "CM7": null,
-    "CN7": null,
-    "CO7": null,
-    "CP7": null,
-    "CQ7": null,
-    "CR7": "=35+35+38+35+35+35",
-    "CS7": "Single (2/hr) Team (4/hr )",
-    "CT7": null,
-    "CU7": null,
-    "CV7": null,
-    "CW7": " ",
-    "CX7": "Target = 60%",
-    "CY7": null,
-    "CZ7": null,
-    "DA7": null,
-    "DB7": null,
-    "DC7": null,
-    "DD7": 3062.5,
-    "DE7": null,
-    "DF7": null,
-    "DG7": null,
-    "DH7": "Total Available = 32",
-    "DI7": null,
-    "DJ7": null,
-    "DK7": null,
-    "DL7": null,
-    "DM7": null,
-    "DN7": null,
-    "DO7": null,
-    "DP7": null,
-    "DQ7": null,
-    "DR7": null,
-    "DS7": null,
-    "DT7": "Total Available = 34",
-    "DU7": null,
-    "DV7": null,
-    "DW7": null,
-    "DX7": null,
-    "DY7": null,
-    "DZ7": null,
-    "EA7": null,
-    "EB7": "Target = 1",
-    "EC7": null,
-    "ED7": null,
-    "EE7": null,
-    "EF7": null,
-    "EG7": null,
-    "EH7": null,
-    "EI7": null,
-    "EJ7": null,
-    "EK7": null,
-    "EL7": null,
-    "A8": {
-      "__datetime__": "2026-02-16T00:00:00"
+  "about": "Weekly clinic performance scoreboard. Each record covers one week and is grouped by focus area. Only filled-in metrics appear in records \u2014 the full metric catalogue with units and descriptions lives in 'schema'.",
+  "generated_at": "2026-05-06T14:02:39Z",
+  "record_count": 3,
+  "metric_count": 115,
+  "schema": {
+    "Financial": {
+      "description": "Revenue billed across all service lines (PT, RMT, Chiropractic, Pelvic Health). Values in CAD.",
+      "metrics": {
+        "Total Revenue - All Services": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Total Product Revenue - All Services": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Theraguns Sold (#)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Pillows": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Custom Knee Brace": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Orthotics": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "PT Total Revenue": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "RMT Total Revenue": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "CHIRO Total Revenue": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Pelvic Health Total Revenue": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        }
+      }
     },
-    "B8": 40454.28,
-    "C8": null,
-    "D8": null,
-    "E8": null,
-    "F8": null,
-    "G8": null,
-    "H8": 48464.61,
-    "I8": "=if(B8=\"\",\"Formula\",sum(H8:H10)/sum(B8:B10))",
-    "J8": 0.0,
-    "K8": 56578.43,
-    "L8": 36.0,
-    "M8": null,
-    "N8": null,
-    "O8": 42.0,
-    "P8": "=AVERAGE(O8:O10)",
-    "Q8": "=450-19-54",
-    "R8": "=Q8/P8",
-    "S8": null,
-    "T8": null,
-    "U8": 498.0,
-    "V8": 498.0,
-    "W8": 100.0,
-    "X8": null,
-    "Y8": 14.0,
-    "Z8": 0.0,
-    "AA8": 0.0,
-    "AB8": null,
-    "AC8": "=77/(77+374)",
-    "AD8": null,
-    "AE8": null,
-    "AF8": null,
-    "AG8": null,
-    "AH8": 1227.0,
-    "AI8": null,
-    "AJ8": 255.0,
-    "AK8": 17.0,
-    "AL8": 0.93,
-    "AM8": 0.69,
-    "AN8": 26.0,
-    "AO8": 8.0,
-    "AP8": 0.0,
-    "AQ8": null,
-    "AR8": 39.0,
-    "AS8": "=AR8/O8",
-    "AT8": "2.87",
-    "AU8": "=60/112",
-    "AV8": 20.0,
-    "AW8": "=AV8/O8",
-    "AX8": null,
-    "AY8": null,
-    "AZ8": null,
-    "BA8": null,
-    "BB8": null,
-    "BC8": null,
-    "BD8": null,
-    "BE8": null,
-    "BF8": null,
-    "BG8": null,
-    "BH8": null,
-    "BI8": null,
-    "BJ8": null,
-    "BK8": null,
-    "BL8": null,
-    "BM8": null,
-    "BN8": null,
-    "BO8": null,
-    "BP8": null,
-    "BQ8": null,
-    "BR8": null,
-    "BS8": null,
-    "BT8": null,
-    "BU8": null,
-    "BV8": null,
-    "BW8": null,
-    "BX8": null,
-    "BY8": null,
-    "BZ8": null,
-    "CA8": null,
-    "CB8": null,
-    "CC8": null,
-    "CD8": null,
-    "CE8": null,
-    "CF8": null,
-    "CG8": null,
-    "CH8": null,
-    "CI8": null,
-    "CJ8": null,
-    "CK8": null,
-    "CL8": null,
-    "CM8": null,
-    "CN8": null,
-    "CO8": null,
-    "CP8": null,
-    "CQ8": null,
-    "CR8": null,
-    "CS8": null,
-    "CT8": null,
-    "CU8": null,
-    "CV8": null,
-    "CW8": null,
-    "CX8": null,
-    "CY8": null,
-    "CZ8": null,
-    "DA8": null,
-    "DB8": null,
-    "DC8": null,
-    "DD8": null,
-    "DE8": null,
-    "DF8": null,
-    "DG8": null,
-    "DH8": null,
-    "DI8": null,
-    "DJ8": null,
-    "DK8": null,
-    "DL8": null,
-    "DM8": null,
-    "DN8": null,
-    "DO8": null,
-    "DP8": null,
-    "DQ8": null,
-    "DR8": null,
-    "DS8": null,
-    "DT8": null,
-    "DU8": null,
-    "DV8": null,
-    "DW8": null,
-    "DX8": null,
-    "DY8": null,
-    "DZ8": null,
-    "EA8": null,
-    "EB8": null,
-    "EC8": null,
-    "ED8": null,
-    "EE8": null,
-    "EF8": null,
-    "EG8": null,
-    "EH8": null,
-    "EI8": null,
-    "EJ8": null,
-    "EK8": null,
-    "EL8": null,
-    "A9": {
-      "__datetime__": "2026-02-09T00:00:00"
+    "Collection": {
+      "description": "Payments received, outstanding accounts receivable (AR), and 4-week collection rate. Values in CAD except rates (0\u20131 ratio).",
+      "metrics": {
+        "Total Payments - All Services": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Revenue Collected (4 wk avg)": {
+          "source": "Ratio",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "AR > 90 days": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Total AR": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        }
+      }
     },
-    "B9": 42360.64,
-    "C9": null,
-    "D9": null,
-    "E9": null,
-    "F9": null,
-    "G9": null,
-    "H9": 34022.04,
-    "I9": "=if(B9=\"\",\"Formula\",sum(H9:H10)/sum(B9:B10))",
-    "J9": 182.0,
-    "K9": 65386.72,
-    "L9": 45.0,
-    "M9": null,
-    "N9": null,
-    "O9": 54.0,
-    "P9": "=AVERAGE(O9:O10)",
-    "Q9": "=450-19-54",
-    "R9": "=Q9/P9",
-    "S9": null,
-    "T9": null,
-    "U9": null,
-    "V9": 669.0,
-    "W9": 129.0,
-    "X9": null,
-    "Y9": 8.0,
-    "Z9": 0.0,
-    "AA9": 0.0,
-    "AB9": null,
-    "AC9": "=56/(56+431)",
-    "AD9": 113.0,
-    "AE9": null,
-    "AF9": null,
-    "AG9": 0.0,
-    "AH9": 1224.0,
-    "AI9": null,
-    "AJ9": 281.0,
-    "AK9": 15.0,
-    "AL9": 0.94,
-    "AM9": 0.73,
-    "AN9": 26.0,
-    "AO9": 7.0,
-    "AP9": 0.0,
-    "AQ9": null,
-    "AR9": 56.0,
-    "AS9": "=AR9/O9",
-    "AT9": "3.26",
-    "AU9": "=94/173",
-    "AV9": 30.0,
-    "AW9": "=AV9/O9",
-    "AX9": null,
-    "AY9": null,
-    "AZ9": null,
-    "BA9": null,
-    "BB9": null,
-    "BC9": null,
-    "BD9": null,
-    "BE9": null,
-    "BF9": null,
-    "BG9": null,
-    "BH9": null,
-    "BI9": null,
-    "BJ9": null,
-    "BK9": null,
-    "BL9": null,
-    "BM9": null,
-    "BN9": null,
-    "BO9": null,
-    "BP9": null,
-    "BQ9": null,
-    "BR9": null,
-    "BS9": null,
-    "BT9": null,
-    "BU9": null,
-    "BV9": null,
-    "BW9": null,
-    "BX9": null,
-    "BY9": null,
-    "BZ9": null,
-    "CA9": null,
-    "CB9": null,
-    "CC9": null,
-    "CD9": null,
-    "CE9": null,
-    "CF9": null,
-    "CG9": null,
-    "CH9": null,
-    "CI9": null,
-    "CJ9": 36099.38,
-    "CK9": 47.0,
-    "CL9": "=382-16-47",
-    "CM9": 10.0,
-    "CN9": "=CM9/CK9",
-    "CO9": 37.0,
-    "CP9": 5.0,
-    "CQ9": 5.0,
-    "CR9": "=sum(CL9:CL10)/sum(CK9:CK10)",
-    "CS9": null,
-    "CT9": "=338\n-47.75",
-    "CU9": "=189.25\n-16.75",
-    "CV9": 166.75,
-    "CW9": 382.0,
-    "CX9": "=CV9/CT9",
-    "CY9": "=CV9/CU9",
-    "CZ9": 30.0,
-    "DA9": "=CZ9/CK9",
-    "DB9": null,
-    "DC9": 355.0,
-    "DD9": 1.0,
-    "DE9": 2.0,
-    "DF9": "=if(DD9=\"\",\"Formula\",sum(DE9:DE10)/sum(DD9:DD10))",
-    "DG9": null,
-    "DH9": 3.75,
-    "DI9": 4.0,
-    "DJ9": 3.0,
-    "DK9": "=DI9/DH9",
-    "DL9": 0.0,
-    "DM9": 0.0,
-    "DN9": null,
-    "DO9": 4458.9,
-    "DP9": 4.0,
-    "DQ9": "=55-7",
-    "DR9": "=sum(DQ9:DQ10)/sum(DP9:DP10)",
-    "DS9": null,
-    "DT9": "=31\n-2.75",
-    "DU9": 25.25,
-    "DV9": 55.0,
-    "DW9": "=DU9/DT9",
-    "DX9": 0.0,
-    "DY9": 0.0,
-    "DZ9": null,
-    "EA9": 2355.0,
-    "EB9": 2.0,
-    "EC9": 17.0,
-    "ED9": "=if(EB10=\"\",\"Formula\",sum(EC10)/sum(EB10))",
-    "EE9": null,
-    "EF9": "=sum(CL9:CL10,DE9:DE10,DQ9:DQ10,EC9:EC10)/sum(CK9:CK10,DD9:DD10,DP9:DP10,EB9:EB10)",
-    "EG9": "=AVERAGE(DW9,DK9,CX9)",
-    "EH9": null,
-    "EI9": null,
-    "EJ9": null,
-    "EK9": null,
-    "EL9": null,
-    "A10": {
-      "__datetime__": "2026-02-02T00:00:00"
+    "Bookings": {
+      "description": "Online appointments booked through the Jane scheduling platform.",
+      "metrics": {
+        "Online Bookings Via Jane": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
     },
-    "B10": 39202.17,
-    "C10": null,
-    "D10": null,
-    "E10": null,
-    "F10": null,
-    "G10": null,
-    "H10": 40068.6,
-    "I10": "=if(B10=\"\",\"Formula\",sum(H10)/sum(B10))",
-    "J10": 60.0,
-    "K10": 57239.65,
-    "L10": 43.0,
-    "M10": null,
-    "N10": null,
-    "O10": 56.0,
-    "P10": "=AVERAGE(O10)",
-    "Q10": "=412-15-57",
-    "R10": "=Q10/P10",
-    "S10": null,
-    "T10": null,
-    "U10": null,
-    "V10": 599.0,
-    "W10": 44.0,
-    "X10": null,
-    "Y10": 9.0,
-    "Z10": 0.0,
-    "AA10": 0.0,
-    "AB10": null,
-    "AC10": "=56/(56+397)",
-    "AD10": 103.0,
-    "AE10": null,
-    "AF10": null,
-    "AG10": 0.0,
-    "AH10": 1217.0,
-    "AI10": null,
-    "AJ10": 282.0,
-    "AK10": 16.0,
-    "AL10": 0.94,
-    "AM10": 0.78,
-    "AN10": 33.0,
-    "AO10": 7.0,
-    "AP10": 2.0,
-    "AQ10": null,
-    "AR10": 56.0,
-    "AS10": "=AR10/O10",
-    "AT10": "3.35",
-    "AU10": "=96/181",
-    "AV10": 38.0,
-    "AW10": "=AV10/O10",
-    "AX10": null,
-    "AY10": null,
-    "AZ10": null,
-    "BA10": null,
-    "BB10": null,
-    "BC10": null,
-    "BD10": null,
-    "BE10": null,
-    "BF10": null,
-    "BG10": null,
-    "BH10": null,
-    "BI10": null,
-    "BJ10": null,
-    "BK10": null,
-    "BL10": null,
-    "BM10": null,
-    "BN10": null,
-    "BO10": null,
-    "BP10": null,
-    "BQ10": null,
-    "BR10": null,
-    "BS10": null,
-    "BT10": null,
-    "BU10": null,
-    "BV10": null,
-    "BW10": null,
-    "BX10": null,
-    "BY10": null,
-    "BZ10": null,
-    "CA10": null,
-    "CB10": null,
-    "CC10": null,
-    "CD10": null,
-    "CE10": null,
-    "CF10": null,
-    "CG10": null,
-    "CH10": null,
-    "CI10": null,
-    "CJ10": 30394.0,
-    "CK10": 45.0,
-    "CL10": "=329-11-45",
-    "CM10": 11.0,
-    "CN10": "=CM10/CK10",
-    "CO10": 37.0,
-    "CP10": 2.0,
-    "CQ10": 6.0,
-    "CR10": "=sum(CL10)/sum(CK10)",
-    "CS10": null,
-    "CT10": "=313.25\n-39.75",
-    "CU10": "=153.5\n-14.25",
-    "CV10": 138.0,
-    "CW10": 329.0,
-    "CX10": "=CV10/CT10",
-    "CY10": "=CV10/CU10",
-    "CZ10": 38.0,
-    "DA10": "=CZ10/CK10",
-    "DB10": null,
-    "DC10": 775.5,
-    "DD10": 2.0,
-    "DE10": 5.0,
-    "DF10": "=if(DD10=\"\",\"Formula\",sum(DE10)/sum(DD10))",
-    "DG10": null,
-    "DH10": "=8.5\n-0.5",
-    "DI10": 8.75,
-    "DJ10": 7.0,
-    "DK10": "=DI10/DH10",
-    "DL10": 0.0,
-    "DM10": 0.0,
-    "DN10": null,
-    "DO10": 5649.9,
-    "DP10": 6.0,
-    "DQ10": "=62-8",
-    "DR10": "=sum(DQ10)/sum(DP10)",
-    "DS10": null,
-    "DT10": "=37.5\n-2.25",
-    "DU10": 30.75,
-    "DV10": 62.0,
-    "DW10": "=DU10/DT10",
-    "DX10": 0.0,
-    "DY10": 0.0,
-    "DZ10": null,
-    "EA10": 1215.0,
-    "EB10": 4.0,
-    "EC10": 6.0,
-    "ED10": "=if(#REF!=\"\",\"Formula\",sum(#REF!)/sum(#REF!))",
-    "EE10": null,
-    "EF10": "=sum(CL10,DE10,DQ10,EC10)/sum(CK10,DD10,DP10,EB10)",
-    "EG10": "=AVERAGE(DW10,DK10,CX10)",
-    "EH10": null,
-    "EI10": null,
-    "EJ10": null,
-    "EK10": null,
-    "EL10": null
+    "Marketing": {
+      "description": "New patient volume \u2014 total assessments (Ax), consultation requests, and cumulative Google / Facebook review counts.",
+      "metrics": {
+        "Consult Requests": {
+          "source": "Form",
+          "unit": "count"
+        },
+        "Consults turned Ax": {
+          "source": "EMR",
+          "unit": "count"
+        },
+        "Total Ax - All Services": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Ax 4 Week Avg": {
+          "source": "GS",
+          "unit": "count",
+          "owner": "J"
+        },
+        "FB Reviews": {
+          "source": "Facebook",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Google Reviews": {
+          "source": "Google",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT Ax": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "RMT Ax": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "CHIRO Ax": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Pelvic Health Ax": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    },
+    "Caseload": {
+      "description": "Capacity and utilization \u2014 available vs booked vs arrived appointments across PT, RMT, and Chiro. Utilization values are 0\u20131 ratios.",
+      "metrics": {
+        "# of Rx (Clinic Wide)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "CROSS REFERRAL AX (Total)": {
+          "source": "NAR",
+          "unit": "count",
+          "owner": "Nicole"
+        },
+        "Cancellation %": {
+          "source": "EMR",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "# of Fall Offs (Total)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Fall Off % Called": {
+          "source": "Tracker",
+          "unit": "ratio (0\u20131)",
+          "owner": "Nicole"
+        },
+        "PT Available appts": {
+          "source": "Estimate",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT Total Available Hours (Total)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT Total Available Hours (PT only)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT Total BOOKED hours": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT Arrived appts": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Utilization (With Kines)": {
+          "source": "Formula",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "Utilization (Without Kines)": {
+          "source": "Formula",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "RMT Hours Available": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "RMT BOOKED hours": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Utilization": {
+          "source": "Formula",
+          "unit": "ratio (0\u20131)"
+        },
+        "Chiro Hours Available": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Chiro BOOKED hours": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    },
+    "Uncategorised": {
+      "description": "Metrics not yet assigned to a focus area in the source spreadsheet.",
+      "metrics": {
+        "Clinic PVA": {
+          "source": null,
+          "unit": "count"
+        },
+        "NAR Submission": {
+          "source": null,
+          "unit": "count"
+        },
+        "NAR Percentage": {
+          "source": null,
+          "unit": "ratio (0\u20131)"
+        },
+        "Shockwave Alone": {
+          "source": "EMR",
+          "unit": "count"
+        },
+        "Shockwave + PT": {
+          "source": "EMR",
+          "unit": "count"
+        },
+        "Total Shockwave Revenue": {
+          "source": "EMR",
+          "unit": "CAD"
+        },
+        "AHS active clients": {
+          "source": null,
+          "unit": "count"
+        },
+        "Total Active Called": {
+          "source": null,
+          "unit": "count"
+        },
+        "Conversion": {
+          "source": null,
+          "unit": "ratio (0\u20131)"
+        },
+        "$$/Visit": {
+          "source": null,
+          "unit": "CAD"
+        },
+        "In-Person Visit": {
+          "source": null,
+          "unit": "count"
+        },
+        "MD F/U post VV tx calls": {
+          "source": null,
+          "unit": "count"
+        },
+        "PT TP Given": {
+          "source": null,
+          "unit": "count"
+        },
+        "TP Utilization": {
+          "source": null,
+          "unit": "ratio (0\u20131)"
+        },
+        "RMT TP Given": {
+          "source": null,
+          "unit": "count"
+        },
+        "CHIRO TP Given": {
+          "source": null,
+          "unit": "count"
+        },
+        "True PVA Average": {
+          "source": null,
+          "unit": "count"
+        },
+        "PVA AVERAGE": {
+          "source": null,
+          "unit": "count"
+        }
+      }
+    },
+    "Treatment Plan": {
+      "description": "Treatment plan submission status in Jane \u2014 submitted vs unsubmitted plans.",
+      "metrics": {
+        "Submitted": {
+          "source": "Jane",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Unsubmitted": {
+          "source": "Jane",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    },
+    "New Clients": {
+      "description": "Cancellation counts for new patient assessment appointments.",
+      "metrics": {
+        "Cancelled Total Ax": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    },
+    "Online": {
+      "description": "Online cancellations and winback attempts for appointments cancelled through the online portal.",
+      "metrics": {
+        "Cancelled Ax (Online)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Cancelled Ax Online %": {
+          "source": "EMR",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "Cancelled Online Ax WINBACK": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    },
+    "Phone": {
+      "description": "Call centre performance via CallHero. Answer Rate and Booking Rate are 0\u20131 ratios (e.g. 0.93 = 93%). NBO = New Bookings (Online), DNB = Did Not Book.",
+      "metrics": {
+        "Total Calls (5530)": {
+          "source": "CallHero",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Missed Calls": {
+          "source": "CallHero",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Answer Rate": {
+          "source": "CallHero",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "Booking Rate": {
+          "source": "CallHero",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "NBO": {
+          "source": "CallHero",
+          "unit": "count",
+          "owner": "J"
+        },
+        "DNB": {
+          "source": "CallHero",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Winback (Ax Only)": {
+          "source": "CallHero",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    },
+    "Tx Plan": {
+      "description": "Treatment plan prescription and uptake. NAR = New Assessment Request. Average Prescribed = avg number of visits prescribed per patient.",
+      "metrics": {
+        "NAR Collected at Ax": {
+          "source": "NAR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "NAR % Collected at Ax": {
+          "source": "Formula",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "Average Prescribed": {
+          "source": "NAR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Booked:Prescribed % (Total)": {
+          "source": "Formula",
+          "unit": "ratio (0\u20131)",
+          "owner": "J"
+        },
+        "# of Tx Plan Given": {
+          "source": "NAR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "% Tx Plan Used": {
+          "source": "NAR",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    },
+    "Satisfaction": {
+      "description": "NPS (Net Promoter Score) collection \u2014 how many patients filled in an NPS survey at their assessment.",
+      "metrics": {
+        "NPS Collected at Ax": {
+          "source": "NPS",
+          "unit": "count",
+          "owner": "BETH"
+        },
+        "NPS % Collected at Ax": {
+          "source": "Formula",
+          "unit": "ratio (0\u20131)",
+          "owner": "BETH"
+        }
+      }
+    },
+    "Rapport": {
+      "description": "Follow-up outcomes \u2014 patients re-engaged after dropping off.",
+      "metrics": {
+        "Follow-up won": {
+          "source": "Tracker",
+          "unit": "count",
+          "owner": "BETH"
+        }
+      }
+    },
+    "Commitment": {
+      "description": "Treatment adherence and utilization \u2014 PVA (Per Visit Average), arrived appointments vs available slots across service lines.",
+      "metrics": {
+        "Dropped Clients won": {
+          "source": "Tracker",
+          "unit": "count",
+          "owner": "BETH"
+        },
+        "PT Tx": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PVA (4 wk avg)": {
+          "source": "Formula",
+          "unit": "count",
+          "owner": "J"
+        },
+        "RMT Tx": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "RMT Available slots": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "RMT Arrived slots": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "CHIRO Tx": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "CHIRO Available slots": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "CHIRO Arrived slots": {
+          "source": "EMR",
+          "unit": "CAD",
+          "owner": "J"
+        },
+        "Pelvic Health Tx": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "Pelvic Health Available slots": {
+          "source": "EMR",
+          "unit": "count"
+        },
+        "Pelvic Health Arrived slots": {
+          "source": "EMR",
+          "unit": "CAD"
+        }
+      }
+    },
+    "Beth": {
+      "description": "Beth's outreach metrics \u2014 discovery calls, patient database size, virtual care revenue.",
+      "metrics": {
+        "Total Patient Database": {
+          "source": null,
+          "unit": "count"
+        },
+        "Beth Outgoing Calls": {
+          "source": "OBJECTIONS",
+          "unit": "count"
+        },
+        "Beth incoming Calls": {
+          "source": "HOOKS",
+          "unit": "count",
+          "owner": "DISOVERY calls"
+        },
+        "Total Calls": {
+          "source": null,
+          "unit": "count"
+        },
+        "Discovery Call Booked": {
+          "source": null,
+          "unit": "count"
+        },
+        "Virtual Revenue": {
+          "source": null,
+          "unit": "CAD"
+        }
+      }
+    },
+    "Paula": {
+      "description": "Paula's outreach metrics \u2014 MD referrals, email campaigns, open rates, virtual care delivery.",
+      "metrics": {
+        "Total Active Patients": {
+          "source": null,
+          "unit": "count"
+        },
+        "MD's called": {
+          "source": null,
+          "unit": "count"
+        },
+        "Emails Sent": {
+          "source": null,
+          "unit": "count"
+        },
+        "Open Rate": {
+          "source": null,
+          "unit": "ratio (0\u20131)"
+        },
+        "Email Responses": {
+          "source": null,
+          "unit": "count"
+        },
+        "Paid Virtual Delivered": {
+          "source": null,
+          "unit": "count",
+          "owner": "innocare"
+        }
+      }
+    },
+    "Tracy": {
+      "description": "Tracy's outreach metrics \u2014 clinician referrals, MD fax campaigns, discovery bookings.",
+      "metrics": {
+        "Calls made by Other Clinicians": {
+          "source": null,
+          "unit": "count"
+        },
+        "Discovery Booked": {
+          "source": null,
+          "unit": "count"
+        },
+        "MD faxees sent": {
+          "source": null,
+          "unit": "count"
+        }
+      }
+    },
+    "Tracy+Paula": {
+      "description": "Joint Tracy & Paula discovery call delivery.",
+      "metrics": {
+        "Discovery Call Delivered": {
+          "source": null,
+          "unit": "count"
+        }
+      }
+    },
+    "AHS": {
+      "description": "Alberta Health Services (government-funded) caseload \u2014 AHS assessments and treatments including Hip & Knee class.",
+      "metrics": {
+        "PT AHS Ax": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "% of Total Ax (AHS)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT AHS Tx (Total)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT AHS Ax (Hip&Knee Class)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        },
+        "PT AHS Tx (Hip&Knee Class)": {
+          "source": "EMR",
+          "unit": "count",
+          "owner": "J"
+        }
+      }
+    }
   },
   "records": [
     {
-      "date": "2026-02-16",
-      "metrics": {
-        "Total Revenue - All Services": {
-          "value": 40454.28,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total Product Revenue - All Services": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Theraguns Sold (#)": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pillows": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Custom Knee Brace": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Orthotics": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total Payments - All Services": {
-          "value": 48464.61,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Revenue Collected (4 wk avg)": {
-          "value": 1.00441053,
-          "category": null,
-          "focus": "Collection",
-          "source": "Ratio",
-          "role": "J"
-        },
-        "AR > 90 days": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total AR": {
-          "value": 56578.43,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Online Bookings Via Jane": {
-          "value": 36.0,
-          "category": null,
-          "focus": "Bookings",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Consult Requests": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Form",
-          "role": null
-        },
-        "Consults turned Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": null
-        },
-        "Total Ax - All Services": {
-          "value": 42.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Ax 4 Week Avg": {
-          "value": 50.66666667,
-          "category": null,
-          "focus": "Marketing",
-          "source": "GS",
-          "role": "J"
-        },
-        "# of Rx (Clinic Wide)": {
-          "value": 377,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Clinic PVA": {
-          "value": 7.440789474,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "CROSS REFERRAL AX (Total)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "NAR",
-          "role": "Nicole"
-        },
-        "Submitted": {
-          "value": 498.0,
-          "category": null,
-          "focus": "Treatment Plan",
-          "source": "Jane",
-          "role": "J"
-        },
-        "Unsubmitted": {
-          "value": 100.0,
-          "category": null,
-          "focus": "Treatment Plan",
-          "source": "Jane",
-          "role": "J"
-        },
-        "Cancelled Total Ax": {
-          "value": 14.0,
-          "category": null,
-          "focus": "New Clients",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Ax (Online)": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Ax Online %": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Online Ax WINBACK": {
-          "value": null,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancellation %": {
-          "value": 0.1707317073,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "# of Fall Offs (Total)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Fall Off % Called": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Tracker",
-          "role": "Nicole"
-        },
-        "FB Reviews": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Facebook",
-          "role": "J"
-        },
-        "Google Reviews": {
-          "value": 1227.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Google",
-          "role": "J"
-        },
-        "Total Calls (5530)": {
-          "value": 255.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Missed Calls": {
-          "value": 17.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Answer Rate": {
-          "value": 0.93,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Answer",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Booking Rate": {
-          "value": 0.69,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Book",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "NBO": {
-          "value": 26.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "DNB": {
-          "value": 8.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Winback (Ax Only)": {
-          "value": 0.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "NAR Collected at Ax": {
-          "value": 39.0,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "NAR % Collected at Ax": {
-          "value": 0.9285714286,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "Formula",
-          "role": "J"
-        },
-        "Average Prescribed": {
-          "value": "2.87",
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "Booked:Prescribed % (Total)": {
-          "value": 0.5357142857,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "Formula",
-          "role": "J"
-        },
-        "# of Tx Plan Given": {
-          "value": 20.0,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "% Tx Plan Used": {
-          "value": 0.4761904762,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "NPS Collected at Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Satisfaction",
-          "source": "NPS",
-          "role": "BETH"
-        },
-        "NPS % Collected at Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Satisfaction",
-          "source": "Formula",
-          "role": "BETH"
-        },
-        "Follow-up won": {
-          "value": null,
-          "category": null,
-          "focus": "Rapport",
-          "source": "Tracker",
-          "role": "BETH"
-        },
-        "Dropped Clients won": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "Tracker",
-          "role": "BETH"
-        },
-        "NAR Submission": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "NAR Percentage": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Shockwave Alone": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Shockwave + PT": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Total Shockwave Revenue": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Total Patient Database": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Total Active Patients": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Calls made by Other Clinicians": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "AHS active clients": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Total Active Called": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Discovery Booked": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "MD faxees sent": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "MD's called": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Emails Sent": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Open Rate": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Email Responses": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Beth Outgoing Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": "OBJECTIONS",
-          "role": null
-        },
-        "Beth incoming Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": "HOOKS",
-          "role": "DISOVERY calls"
-        },
-        "Total Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Discovery Call Booked": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Conversion": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Discovery Call Delivered": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy+Paula",
-          "source": null,
-          "role": null
-        },
-        "Paid Virtual Delivered": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": "innocare"
-        },
-        "Virtual Revenue": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "$$/Visit": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "In-Person Visit": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "MD F/U post VV tx calls": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "PT Total Revenue": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Tx": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Ax": {
-          "value": null,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "% of Total Ax (AHS)": {
-          "value": null,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Tx (Total)": {
-          "value": null,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Ax (Hip&Knee Class)": {
-          "value": null,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Tx (Hip&Knee Class)": {
-          "value": null,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PVA (4 wk avg)": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "Formula",
-          "role": "J"
-        },
-        "PT Available appts": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Estimate",
-          "role": "J"
-        },
-        "PT Total Available Hours (Total)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Total Available Hours (PT only)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Total BOOKED hours": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Arrived appts": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Utilization (With Kines)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": "J"
-        },
-        "Utilization (Without Kines)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": "J"
-        },
-        "PT TP Given": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "TP Utilization": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "RMT Total Revenue": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Tx": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Hours Available": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT BOOKED hours": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Arrived slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Utilization": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": null
-        },
-        "RMT TP Given": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "CHIRO Total Revenue": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Tx": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Chiro Hours Available": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Chiro BOOKED hours": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Arrived slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO TP Given": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Pelvic Health Total Revenue": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pelvic Health Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pelvic Health Tx": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "True PVA Average": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "PVA AVERAGE": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Pelvic Health Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": null
-        },
-        "Pelvic Health Arrived slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": null
-        }
+      "date": "2026-02-02",
+      "Financial": {
+        "Total Revenue - All Services": 39202.17,
+        "PT Total Revenue": 30394.0,
+        "RMT Total Revenue": 775.5,
+        "CHIRO Total Revenue": 5649.9,
+        "Pelvic Health Total Revenue": 1215.0
+      },
+      "Collection": {
+        "Total Payments - All Services": 40068.6,
+        "Revenue Collected (4 wk avg)": 1.022101583,
+        "AR > 90 days": 60.0,
+        "Total AR": 57239.65
+      },
+      "Bookings": {
+        "Online Bookings Via Jane": 43.0
+      },
+      "Marketing": {
+        "Total Ax - All Services": 56.0,
+        "Ax 4 Week Avg": 56,
+        "FB Reviews": 0.0,
+        "Google Reviews": 1217.0,
+        "PT Ax": 45.0,
+        "RMT Ax": 2.0,
+        "CHIRO Ax": 6.0,
+        "Pelvic Health Ax": 4.0
+      },
+      "Caseload": {
+        "# of Rx (Clinic Wide)": 340,
+        "Cancellation %": 0.1236203091,
+        "# of Fall Offs (Total)": 103.0,
+        "PT Total Available Hours (Total)": 273.5,
+        "PT Total Available Hours (PT only)": 139.25,
+        "PT Total BOOKED hours": 138.0,
+        "PT Arrived appts": 329.0,
+        "Utilization (With Kines)": 0.5045703839,
+        "Utilization (Without Kines)": 0.9910233393,
+        "RMT Hours Available": 8,
+        "RMT BOOKED hours": 8.75,
+        "Chiro Hours Available": 35.25,
+        "Chiro BOOKED hours": 30.75
+      },
+      "Uncategorised": {
+        "Clinic PVA": 6.071428571,
+        "PT TP Given": 38.0,
+        "TP Utilization": 0.0,
+        "RMT TP Given": 0.0,
+        "CHIRO TP Given": 0.0,
+        "True PVA Average": 5.929824561
+      },
+      "Treatment Plan": {
+        "Submitted": 599.0,
+        "Unsubmitted": 44.0
+      },
+      "New Clients": {
+        "Cancelled Total Ax": 9.0
+      },
+      "Online": {
+        "Cancelled Ax (Online)": 0.0,
+        "Cancelled Ax Online %": 0.0
+      },
+      "Phone": {
+        "Total Calls (5530)": 282.0,
+        "Missed Calls": 16.0,
+        "Answer Rate": 0.94,
+        "Booking Rate": 0.78,
+        "NBO": 33.0,
+        "DNB": 7.0,
+        "Winback (Ax Only)": 2.0
+      },
+      "Tx Plan": {
+        "NAR Collected at Ax": 56.0,
+        "NAR % Collected at Ax": 1,
+        "Average Prescribed": 3.35,
+        "Booked:Prescribed % (Total)": 0.5303867403,
+        "# of Tx Plan Given": 38.0,
+        "% Tx Plan Used": 0.6785714286
+      },
+      "Commitment": {
+        "PT Tx": 273,
+        "RMT Tx": 5.0,
+        "RMT Arrived slots": 7.0,
+        "CHIRO Tx": 54,
+        "CHIRO Arrived slots": 62.0,
+        "Pelvic Health Tx": 6.0
+      },
+      "AHS": {
+        "PT AHS Ax": 11.0,
+        "% of Total Ax (AHS)": 0.2444444444,
+        "PT AHS Tx (Total)": 37.0,
+        "PT AHS Ax (Hip&Knee Class)": 2.0,
+        "PT AHS Tx (Hip&Knee Class)": 6.0
       }
     },
     {
       "date": "2026-02-09",
-      "metrics": {
-        "Total Revenue - All Services": {
-          "value": 42360.64,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total Product Revenue - All Services": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Theraguns Sold (#)": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pillows": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Custom Knee Brace": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Orthotics": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total Payments - All Services": {
-          "value": 34022.04,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Revenue Collected (4 wk avg)": {
-          "value": 0.9083875359,
-          "category": null,
-          "focus": "Collection",
-          "source": "Ratio",
-          "role": "J"
-        },
-        "AR > 90 days": {
-          "value": 182.0,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total AR": {
-          "value": 65386.72,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Online Bookings Via Jane": {
-          "value": 45.0,
-          "category": null,
-          "focus": "Bookings",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Consult Requests": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Form",
-          "role": null
-        },
-        "Consults turned Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": null
-        },
-        "Total Ax - All Services": {
-          "value": 54.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Ax 4 Week Avg": {
-          "value": 55,
-          "category": null,
-          "focus": "Marketing",
-          "source": "GS",
-          "role": "J"
-        },
-        "# of Rx (Clinic Wide)": {
-          "value": 377,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Clinic PVA": {
-          "value": 6.854545455,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "CROSS REFERRAL AX (Total)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "NAR",
-          "role": "Nicole"
-        },
-        "Submitted": {
-          "value": 669.0,
-          "category": null,
-          "focus": "Treatment Plan",
-          "source": "Jane",
-          "role": "J"
-        },
-        "Unsubmitted": {
-          "value": 129.0,
-          "category": null,
-          "focus": "Treatment Plan",
-          "source": "Jane",
-          "role": "J"
-        },
-        "Cancelled Total Ax": {
-          "value": 8.0,
-          "category": null,
-          "focus": "New Clients",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Ax (Online)": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Ax Online %": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Online Ax WINBACK": {
-          "value": null,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancellation %": {
-          "value": 0.1149897331,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "# of Fall Offs (Total)": {
-          "value": 113.0,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Fall Off % Called": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Tracker",
-          "role": "Nicole"
-        },
-        "FB Reviews": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Facebook",
-          "role": "J"
-        },
-        "Google Reviews": {
-          "value": 1224.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Google",
-          "role": "J"
-        },
-        "Total Calls (5530)": {
-          "value": 281.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Missed Calls": {
-          "value": 15.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Answer Rate": {
-          "value": 0.94,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Answer",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Booking Rate": {
-          "value": 0.73,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Book",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "NBO": {
-          "value": 26.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "DNB": {
-          "value": 7.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Winback (Ax Only)": {
-          "value": 0.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "NAR Collected at Ax": {
-          "value": 56.0,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "NAR % Collected at Ax": {
-          "value": 1.037037037,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "Formula",
-          "role": "J"
-        },
-        "Average Prescribed": {
-          "value": "3.26",
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "Booked:Prescribed % (Total)": {
-          "value": 0.5433526012,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "Formula",
-          "role": "J"
-        },
-        "# of Tx Plan Given": {
-          "value": 30.0,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "% Tx Plan Used": {
-          "value": 0.5555555556,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "NPS Collected at Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Satisfaction",
-          "source": "NPS",
-          "role": "BETH"
-        },
-        "NPS % Collected at Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Satisfaction",
-          "source": "Formula",
-          "role": "BETH"
-        },
-        "Follow-up won": {
-          "value": null,
-          "category": null,
-          "focus": "Rapport",
-          "source": "Tracker",
-          "role": "BETH"
-        },
-        "Dropped Clients won": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "Tracker",
-          "role": "BETH"
-        },
-        "NAR Submission": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "NAR Percentage": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Shockwave Alone": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Shockwave + PT": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Total Shockwave Revenue": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Total Patient Database": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Total Active Patients": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Calls made by Other Clinicians": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "AHS active clients": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Total Active Called": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Discovery Booked": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "MD faxees sent": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "MD's called": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Emails Sent": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Open Rate": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Email Responses": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Beth Outgoing Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": "OBJECTIONS",
-          "role": null
-        },
-        "Beth incoming Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": "HOOKS",
-          "role": "DISOVERY calls"
-        },
-        "Total Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Discovery Call Booked": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Conversion": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Discovery Call Delivered": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy+Paula",
-          "source": null,
-          "role": null
-        },
-        "Paid Virtual Delivered": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": "innocare"
-        },
-        "Virtual Revenue": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "$$/Visit": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "In-Person Visit": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "MD F/U post VV tx calls": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "PT Total Revenue": {
-          "value": 36099.38,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Ax": {
-          "value": 47.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Tx": {
-          "value": 319,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Ax": {
-          "value": 10.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "% of Total Ax (AHS)": {
-          "value": 0.2127659574,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Tx (Total)": {
-          "value": 37.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Ax (Hip&Knee Class)": {
-          "value": 5.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Tx (Hip&Knee Class)": {
-          "value": 5.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PVA (4 wk avg)": {
-          "value": 1.5,
-          "category": null,
-          "focus": "Commitment",
-          "source": "Formula",
-          "role": "J"
-        },
-        "PT Available appts": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Estimate",
-          "role": "J"
-        },
-        "PT Total Available Hours (Total)": {
-          "value": 290.25,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Total Available Hours (PT only)": {
-          "value": 172.5,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Total BOOKED hours": {
-          "value": 166.75,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Arrived appts": {
-          "value": 382.0,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Utilization (With Kines)": {
-          "value": 0.5745047373,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": "J"
-        },
-        "Utilization (Without Kines)": {
-          "value": 0.9666666667,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": "J"
-        },
-        "PT TP Given": {
-          "value": 30.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "TP Utilization": {
-          "value": 0.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "RMT Total Revenue": {
-          "value": 355.0,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Ax": {
-          "value": 1.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Tx": {
-          "value": 2.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Hours Available": {
-          "value": 3.75,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT BOOKED hours": {
-          "value": 4.0,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Arrived slots": {
-          "value": 3.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Utilization": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": null
-        },
-        "RMT TP Given": {
-          "value": 0.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "CHIRO Total Revenue": {
-          "value": 4458.9,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Ax": {
-          "value": 4.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Tx": {
-          "value": 48,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Chiro Hours Available": {
-          "value": 28.25,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Chiro BOOKED hours": {
-          "value": 25.25,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Arrived slots": {
-          "value": 55.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO TP Given": {
-          "value": 0.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Pelvic Health Total Revenue": {
-          "value": 2355.0,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pelvic Health Ax": {
-          "value": 2.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pelvic Health Tx": {
-          "value": 17.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "True PVA Average": {
-          "value": 6.522522523,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "PVA AVERAGE": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Pelvic Health Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": null
-        },
-        "Pelvic Health Arrived slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": null
-        }
+      "Financial": {
+        "Total Revenue - All Services": 42360.64,
+        "PT Total Revenue": 36099.38,
+        "RMT Total Revenue": 355.0,
+        "CHIRO Total Revenue": 4458.9,
+        "Pelvic Health Total Revenue": 2355.0
+      },
+      "Collection": {
+        "Total Payments - All Services": 34022.04,
+        "Revenue Collected (4 wk avg)": 0.9083875359,
+        "AR > 90 days": 182.0,
+        "Total AR": 65386.72
+      },
+      "Bookings": {
+        "Online Bookings Via Jane": 45.0
+      },
+      "Marketing": {
+        "Total Ax - All Services": 54.0,
+        "Ax 4 Week Avg": 55,
+        "FB Reviews": 0.0,
+        "Google Reviews": 1224.0,
+        "PT Ax": 47.0,
+        "RMT Ax": 1.0,
+        "CHIRO Ax": 4.0,
+        "Pelvic Health Ax": 2.0
+      },
+      "Caseload": {
+        "# of Rx (Clinic Wide)": 377,
+        "Cancellation %": 0.1149897331,
+        "# of Fall Offs (Total)": 113.0,
+        "PT Total Available Hours (Total)": 290.25,
+        "PT Total Available Hours (PT only)": 172.5,
+        "PT Total BOOKED hours": 166.75,
+        "PT Arrived appts": 382.0,
+        "Utilization (With Kines)": 0.5745047373,
+        "Utilization (Without Kines)": 0.9666666667,
+        "RMT Hours Available": 3.75,
+        "RMT BOOKED hours": 4.0,
+        "Chiro Hours Available": 28.25,
+        "Chiro BOOKED hours": 25.25
+      },
+      "Uncategorised": {
+        "Clinic PVA": 6.854545455,
+        "PT TP Given": 30.0,
+        "TP Utilization": 0.0,
+        "RMT TP Given": 0.0,
+        "CHIRO TP Given": 0.0,
+        "True PVA Average": 6.522522523
+      },
+      "Treatment Plan": {
+        "Submitted": 669.0,
+        "Unsubmitted": 129.0
+      },
+      "New Clients": {
+        "Cancelled Total Ax": 8.0
+      },
+      "Online": {
+        "Cancelled Ax (Online)": 0.0,
+        "Cancelled Ax Online %": 0.0
+      },
+      "Phone": {
+        "Total Calls (5530)": 281.0,
+        "Missed Calls": 15.0,
+        "Answer Rate": 0.94,
+        "Booking Rate": 0.73,
+        "NBO": 26.0,
+        "DNB": 7.0,
+        "Winback (Ax Only)": 0.0
+      },
+      "Tx Plan": {
+        "NAR Collected at Ax": 56.0,
+        "NAR % Collected at Ax": 1.037037037,
+        "Average Prescribed": 3.26,
+        "Booked:Prescribed % (Total)": 0.5433526012,
+        "# of Tx Plan Given": 30.0,
+        "% Tx Plan Used": 0.5555555556
+      },
+      "Commitment": {
+        "PT Tx": 319,
+        "PVA (4 wk avg)": 1.5,
+        "RMT Tx": 2.0,
+        "RMT Arrived slots": 3.0,
+        "CHIRO Tx": 48,
+        "CHIRO Arrived slots": 55.0,
+        "Pelvic Health Tx": 17.0
+      },
+      "AHS": {
+        "PT AHS Ax": 10.0,
+        "% of Total Ax (AHS)": 0.2127659574,
+        "PT AHS Tx (Total)": 37.0,
+        "PT AHS Ax (Hip&Knee Class)": 5.0,
+        "PT AHS Tx (Hip&Knee Class)": 5.0
       }
     },
     {
-      "date": "2026-02-02",
-      "metrics": {
-        "Total Revenue - All Services": {
-          "value": 39202.17,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total Product Revenue - All Services": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Theraguns Sold (#)": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pillows": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Custom Knee Brace": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Orthotics": {
-          "value": null,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total Payments - All Services": {
-          "value": 40068.6,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Revenue Collected (4 wk avg)": {
-          "value": 1.022101583,
-          "category": null,
-          "focus": "Collection",
-          "source": "Ratio",
-          "role": "J"
-        },
-        "AR > 90 days": {
-          "value": 60.0,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Total AR": {
-          "value": 57239.65,
-          "category": null,
-          "focus": "Collection",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Online Bookings Via Jane": {
-          "value": 43.0,
-          "category": null,
-          "focus": "Bookings",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Consult Requests": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Form",
-          "role": null
-        },
-        "Consults turned Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": null
-        },
-        "Total Ax - All Services": {
-          "value": 56.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Ax 4 Week Avg": {
-          "value": 56,
-          "category": null,
-          "focus": "Marketing",
-          "source": "GS",
-          "role": "J"
-        },
-        "# of Rx (Clinic Wide)": {
-          "value": 340,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Clinic PVA": {
-          "value": 6.071428571,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "CROSS REFERRAL AX (Total)": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "NAR",
-          "role": "Nicole"
-        },
-        "Submitted": {
-          "value": 599.0,
-          "category": null,
-          "focus": "Treatment Plan",
-          "source": "Jane",
-          "role": "J"
-        },
-        "Unsubmitted": {
-          "value": 44.0,
-          "category": null,
-          "focus": "Treatment Plan",
-          "source": "Jane",
-          "role": "J"
-        },
-        "Cancelled Total Ax": {
-          "value": 9.0,
-          "category": null,
-          "focus": "New Clients",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Ax (Online)": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Ax Online %": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancelled Online Ax WINBACK": {
-          "value": null,
-          "category": null,
-          "focus": "Online",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Cancellation %": {
-          "value": 0.1236203091,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "# of Fall Offs (Total)": {
-          "value": 103.0,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Fall Off % Called": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Tracker",
-          "role": "Nicole"
-        },
-        "FB Reviews": {
-          "value": 0.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Facebook",
-          "role": "J"
-        },
-        "Google Reviews": {
-          "value": 1217.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "Google",
-          "role": "J"
-        },
-        "Total Calls (5530)": {
-          "value": 282.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Missed Calls": {
-          "value": 16.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Answer Rate": {
-          "value": 0.94,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Answer",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Booking Rate": {
-          "value": 0.78,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Book",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "NBO": {
-          "value": 33.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "DNB": {
-          "value": 7.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "Winback (Ax Only)": {
-          "value": 2.0,
-          "category": "PHONE PERFORMANCE",
-          "focus": "Phone",
-          "source": "CallHero",
-          "role": "J"
-        },
-        "NAR Collected at Ax": {
-          "value": 56.0,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "NAR % Collected at Ax": {
-          "value": 1,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "Formula",
-          "role": "J"
-        },
-        "Average Prescribed": {
-          "value": "3.35",
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "Booked:Prescribed % (Total)": {
-          "value": 0.5303867403,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "Formula",
-          "role": "J"
-        },
-        "# of Tx Plan Given": {
-          "value": 38.0,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "% Tx Plan Used": {
-          "value": 0.6785714286,
-          "category": null,
-          "focus": "Tx Plan",
-          "source": "NAR",
-          "role": "J"
-        },
-        "NPS Collected at Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Satisfaction",
-          "source": "NPS",
-          "role": "BETH"
-        },
-        "NPS % Collected at Ax": {
-          "value": null,
-          "category": null,
-          "focus": "Satisfaction",
-          "source": "Formula",
-          "role": "BETH"
-        },
-        "Follow-up won": {
-          "value": null,
-          "category": null,
-          "focus": "Rapport",
-          "source": "Tracker",
-          "role": "BETH"
-        },
-        "Dropped Clients won": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "Tracker",
-          "role": "BETH"
-        },
-        "NAR Submission": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "NAR Percentage": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Shockwave Alone": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Shockwave + PT": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Total Shockwave Revenue": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": "EMR",
-          "role": null
-        },
-        "Total Patient Database": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Total Active Patients": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Calls made by Other Clinicians": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "AHS active clients": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Total Active Called": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Discovery Booked": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "MD faxees sent": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy",
-          "source": null,
-          "role": null
-        },
-        "MD's called": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Emails Sent": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Open Rate": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Email Responses": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": null
-        },
-        "Beth Outgoing Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": "OBJECTIONS",
-          "role": null
-        },
-        "Beth incoming Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": "HOOKS",
-          "role": "DISOVERY calls"
-        },
-        "Total Calls": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Discovery Call Booked": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "Conversion": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Discovery Call Delivered": {
-          "value": null,
-          "category": null,
-          "focus": "Tracy+Paula",
-          "source": null,
-          "role": null
-        },
-        "Paid Virtual Delivered": {
-          "value": null,
-          "category": null,
-          "focus": "Paula",
-          "source": null,
-          "role": "innocare"
-        },
-        "Virtual Revenue": {
-          "value": null,
-          "category": null,
-          "focus": "Beth",
-          "source": null,
-          "role": null
-        },
-        "$$/Visit": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "In-Person Visit": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "MD F/U post VV tx calls": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "PT Total Revenue": {
-          "value": 30394.0,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Ax": {
-          "value": 45.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Tx": {
-          "value": 273,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Ax": {
-          "value": 11.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "% of Total Ax (AHS)": {
-          "value": 0.2444444444,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Tx (Total)": {
-          "value": 37.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Ax (Hip&Knee Class)": {
-          "value": 2.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT AHS Tx (Hip&Knee Class)": {
-          "value": 6.0,
-          "category": null,
-          "focus": "AHS",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PVA (4 wk avg)": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "Formula",
-          "role": "J"
-        },
-        "PT Available appts": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Estimate",
-          "role": "J"
-        },
-        "PT Total Available Hours (Total)": {
-          "value": 273.5,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Total Available Hours (PT only)": {
-          "value": 139.25,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Total BOOKED hours": {
-          "value": 138.0,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "PT Arrived appts": {
-          "value": 329.0,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Utilization (With Kines)": {
-          "value": 0.5045703839,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": "J"
-        },
-        "Utilization (Without Kines)": {
-          "value": 0.9910233393,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": "J"
-        },
-        "PT TP Given": {
-          "value": 38.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "TP Utilization": {
-          "value": 0.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "RMT Total Revenue": {
-          "value": 775.5,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Ax": {
-          "value": 2.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Tx": {
-          "value": 5.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Hours Available": {
-          "value": 8,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT BOOKED hours": {
-          "value": 8.75,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "RMT Arrived slots": {
-          "value": 7.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Utilization": {
-          "value": null,
-          "category": null,
-          "focus": "Caseload",
-          "source": "Formula",
-          "role": null
-        },
-        "RMT TP Given": {
-          "value": 0.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "CHIRO Total Revenue": {
-          "value": 5649.9,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Ax": {
-          "value": 6.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Tx": {
-          "value": 54,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Chiro Hours Available": {
-          "value": 35.25,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Chiro BOOKED hours": {
-          "value": 30.75,
-          "category": null,
-          "focus": "Caseload",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO Arrived slots": {
-          "value": 62.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "CHIRO TP Given": {
-          "value": 0.0,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Pelvic Health Total Revenue": {
-          "value": 1215.0,
-          "category": null,
-          "focus": "Financial",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pelvic Health Ax": {
-          "value": 4.0,
-          "category": null,
-          "focus": "Marketing",
-          "source": "EMR",
-          "role": "J"
-        },
-        "Pelvic Health Tx": {
-          "value": 6.0,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": "J"
-        },
-        "True PVA Average": {
-          "value": 5.929824561,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "PVA AVERAGE": {
-          "value": null,
-          "category": null,
-          "focus": null,
-          "source": null,
-          "role": null
-        },
-        "Pelvic Health Available slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": null
-        },
-        "Pelvic Health Arrived slots": {
-          "value": null,
-          "category": null,
-          "focus": "Commitment",
-          "source": "EMR",
-          "role": null
-        }
+      "date": "2026-02-16",
+      "Financial": {
+        "Total Revenue - All Services": 40454.28
+      },
+      "Collection": {
+        "Total Payments - All Services": 48464.61,
+        "Revenue Collected (4 wk avg)": 1.00441053,
+        "AR > 90 days": 0.0,
+        "Total AR": 56578.43
+      },
+      "Bookings": {
+        "Online Bookings Via Jane": 36.0
+      },
+      "Marketing": {
+        "Total Ax - All Services": 42.0,
+        "Ax 4 Week Avg": 50.66666667,
+        "Google Reviews": 1227.0
+      },
+      "Caseload": {
+        "# of Rx (Clinic Wide)": 377,
+        "Cancellation %": 0.1707317073
+      },
+      "Uncategorised": {
+        "Clinic PVA": 7.440789474
+      },
+      "Treatment Plan": {
+        "Submitted": 498.0,
+        "Unsubmitted": 100.0
+      },
+      "New Clients": {
+        "Cancelled Total Ax": 14.0
+      },
+      "Online": {
+        "Cancelled Ax (Online)": 0.0,
+        "Cancelled Ax Online %": 0.0
+      },
+      "Phone": {
+        "Total Calls (5530)": 255.0,
+        "Missed Calls": 17.0,
+        "Answer Rate": 0.93,
+        "Booking Rate": 0.69,
+        "NBO": 26.0,
+        "DNB": 8.0,
+        "Winback (Ax Only)": 0.0
+      },
+      "Tx Plan": {
+        "NAR Collected at Ax": 39.0,
+        "NAR % Collected at Ax": 0.9285714286,
+        "Average Prescribed": 2.87,
+        "Booked:Prescribed % (Total)": 0.5357142857,
+        "# of Tx Plan Given": 20.0,
+        "% Tx Plan Used": 0.4761904762
       }
     }
   ]
