@@ -222,10 +222,10 @@ def convert(file_path):
             entry["owner"] = m["owner"]
         schema[focus]["metrics"][name] = entry
 
-    # ── Records: one entry per week, grouped by focus, nulls omitted ─────────
-    # Convention: only metrics WITH a value appear. null = not filled in that
-    # week; the full catalogue is in schema[focus]["metrics"].
-    # Zero (0) is a real value and IS included.
+    # ── Records: one entry per week, grouped by focus ───────────────────────
+    # null means the cell was not filled in that week — it is kept so the
+    # structure is consistent and consumers know the field exists.
+    # Excel errors (#REF!, #DIV/0!) are normalised to null.
     records = []
     for row in range(1, ws.max_row + 1):
         date_val = ws.cell(row, 1).value
@@ -238,13 +238,11 @@ def convert(file_path):
             if isinstance(raw, str) and raw.startswith("#"):
                 raw = None
             raw = to_number(raw)
-            if raw is not None:
-                by_focus[m["focus"]][name] = raw
+            by_focus[m["focus"]][name] = raw
 
         record: dict = {"date": date_val.strftime("%Y-%m-%d")}
         for focus in focus_order:
-            if focus in by_focus:
-                record[focus] = by_focus[focus]
+            record[focus] = by_focus[focus]
 
         records.append(record)
 
@@ -254,8 +252,9 @@ def convert(file_path):
         "sheet_name":   ws.title,
         "about": (
             "Weekly clinic performance scoreboard. Each record covers one week "
-            "and is grouped by focus area. Only filled-in metrics appear in records — "
-            "the full metric catalogue with units and descriptions lives in 'schema'."
+            "and is grouped by focus area. null means the field exists but was not "
+            "filled in that week. The full metric catalogue with units and descriptions "
+            "lives in 'schema'."
         ),
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "record_count": len(records),
